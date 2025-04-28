@@ -39,16 +39,12 @@ Our application is built using a modern, scalable tech stack:
 DevSwipe is proudly developed by:
 
 - [Sarthak Italiya](https://github.com/sarthakitaliya)  
-  https://github.com/sarthakitaliya
   
 - [Dhruvin JS](https://github.com/dhruvinjs)  
-  https://github.com/dhruvinjs
   
 - [Yshak](https://github.com/Vy-shak)  
-  https://github.com/Vy-shak
   
 - [Aryan Bhat](https://github.com/AryanBhatDev)  
-  https://github.com/AryanBhatDev
 
 
 
