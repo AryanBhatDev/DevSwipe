@@ -1,84 +1,55 @@
-# Turborepo starter
+# DevSwipe
 
-This Turborepo starter is maintained by the Turborepo core team.
+## Connect. Code. Collaborate.
 
-## Using this example
+DevSwipe is a social platform where developers can connect with fellow coders based on matching tech stacks and interests. Think of it as a "Tinder for Developers" - but focused on professional networking, collaboration, and building meaningful connections in the tech community.
 
-Run the following command:
 
-```sh
-npx create-turbo@latest
-```
+## 🚀 Features
 
-## What's inside?
+- **Developer Profile Creation**: Create your comprehensive developer profile showcasing your skills, projects, and preferences
+- **Tech Stack Matching**: Our intelligent algorithm matches you with developers who share similar or complementary tech stacks
+- **Swipe Interface**: Simple and intuitive swipe mechanism to express interest in connecting with other developers
+- **Request Management**: Track incoming connection requests from developers who have swiped yes on your profile
+- **Real-time Chat**: Once matched, start collaborating immediately through our built-in chat system
+- **Project Collaboration**: Find the perfect coding partner for your next big idea
 
-This Turborepo includes the following packages/apps:
+## 💻 Tech Stack
 
-### Apps and Packages
+Our application is built using a modern, scalable tech stack:
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- **Monorepo Structure**: [pnpm](https://pnpm.io/) + [Turborepo](https://turbo.build/)
+- **Frontend**: [Next.js](https://nextjs.org/) with TypeScript
+- **Styling**: [TailwindCSS](https://tailwindcss.com/) for responsive design
+- **Database**: PostgreSQL with [Prisma](https://www.prisma.io/) ORM
+- **Authentication**: NextAuth.js for secure user authentication
+- **Deployment**: Vercel
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+## 🔄 Workflow
 
-This Turborepo has some additional tools already setup for you:
+- Sign Up: Create your developer profile with your technical skills, experience, and interests
+- Browse: View profiles of other developers in your area or with matching tech interests
+- Swipe: Swipe right on developers you'd like to collaborate with
+- Match: When two developers both swipe right on each other, it's a match!
+- Chat: Start a conversation through our built-in messaging system
+- Collaborate: Take your connection beyond the platform and start building amazing projects together
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+## 👨‍💻 Team
+DevSwipe is proudly developed by:
 
-### Build
+- [Sarthak Italiya](https://github.com/sarthakitaliya)  
+  https://github.com/sarthakitaliya
+  
+- [Dhruvin JS](https://github.com/dhruvinjs)  
+  https://github.com/dhruvinjs
+  
+- [Yshak](https://github.com/Vy-shak)  
+  https://github.com/Vy-shak
+  
+- [Aryan Bhat](https://github.com/AryanBhatDev)  
+  https://github.com/AryanBhatDev
 
-To build all apps and packages, run the following command:
 
-```
-cd my-turborepo
-pnpm build
-```
 
-### Develop
 
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
-
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turborepo.com/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turborepo.com/docs/core-concepts/caching)
-- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.com/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turborepo.com/docs/reference/configuration)
-- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
