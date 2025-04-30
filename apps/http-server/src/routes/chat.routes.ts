@@ -5,3 +5,4 @@ import { authenticate } from '../middlewares/auth.middleware';
 export const chatRouter: Router = express.Router();
 
 chatRouter.get('/all',authenticate, chatList);
+chatRouter.get('/:name',authenticate, chatList);
