@@ -38,7 +38,7 @@ class ChatService{
         });
 
         const chatPartners = matches.map(match =>{
-            const otherUser = match.userAId === userId ? match.userB:match.A
+            const otherUser = match.userAId === userId ? match.userB: match.userA
             return otherUser.name
         })
         return chatPartners
