@@ -7,7 +7,6 @@ const io = new Server(4040, {
         credentials: true,
         methods: ["GET", "POST"],
     },
-    allowEIO3: true
 })
 
 io.use((socket, next) => {
